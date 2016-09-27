@@ -49,7 +49,7 @@ else {
 # -- Set Computer Name using the local server details unless one has been specified. 
 $NodeName = [string]$($env:COMPUTERNAME)
 
-$ScorchServer = 'zprxmgt001.application.enet'
+$ScorchServer = ''
 $ScorchPort = "81" 
 
 # - Global F5 Variables
@@ -57,7 +57,7 @@ $RunBookNodeNameProp = "Node Name"
 $RunBookOutputProperty = "NodeState" 
 
 # -- Change Status Specifc Variables
-$ChangeRunBookName = "F5 - Change Node State"
+$ChangeRunBookName = ""
 $ChangeRunBookDesiredStateProp = "DesiredState" 
 
 # -- Get Status Specific Variables
